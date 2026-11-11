@@ -13,10 +13,10 @@
 ## 安装
 
 1. DSH 左下角 **插件** → **添加插件**
-2. 填这个绝对路径：
+2. 填 GitHub 地址，或本地克隆后的绝对路径：
 
 ```
-/Users/yikuaibanz1/Desktop/bs/小肥鱼/dsh-voice-bubble
+https://github.com/YIKUAIBANZI/dsh-voice-bubble
 ```
 
 3. 安装后**重启 DSH**（客户端代码在启动时打包，不重启看不到气泡）
@@ -31,9 +31,18 @@
 
 ## 换声音
 
-默认走 **edge-tts**（微软神经语音，免费、无需 key），音色默认 `zh-CN-XiaoyiNeural`（晓伊，年轻俏皮），
+默认走 **edge-tts**（微软神经语音，免费、无需 key）：装了就用 `zh-CN-XiaoyiNeural`（晓伊，年轻俏皮），
 `timbre` 参数可选 `xiaoyi` / `xiaoxiao`（晓晓，温柔）/ `yunxi` / `yunyang`。
-插件目录里带了一个 `.venv`，`edge-tts` 就在里面，不依赖系统 Python。网络不通时自动回退 macOS 的 `Tingting`。
+没装 `edge-tts` 时自动回退 macOS 自带的 `Tingting`（婷婷）。
+
+想让声音更自然，装一下 edge-tts（任选其一）：
+
+```bash
+pip3 install --user edge-tts
+# 或者用插件目录里的 venv
+python3 -m venv .venv && .venv/bin/pip install edge-tts
+```
+
 
 想换成 **小肥鱼 · 蓝汽水**（ElevenLabs，voice_id 填你自己的）：
 

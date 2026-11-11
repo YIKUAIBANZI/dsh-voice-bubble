@@ -1,0 +1,32 @@
+{
+  "id": "dsh-voice-bubble",
+  "name": "dsh-voice-bubble",
+  "description": "WeChat-style voice message bubbles in the DeepSeek Harness chat: send_voice tool, inline player with duration and 转文字.",
+  "repository": "https://github.com/YIKUAIBANZI/dsh-voice-bubble",
+  "author": {
+    "name": "YIKUAIBANZI",
+    "github": "YIKUAIBANZI",
+    "avatar": "https://avatars.githubusercontent.com/u/139900657?v=4"
+  },
+  "license": "MIT",
+  "category": "tool",
+  "status": "unverified",
+  "declaredCompatibility": "not stated",
+  "verifiedVersions": [],
+  "lastVerifiedAt": null,
+  "installCommand": null,
+  "documentationUrl": "https://github.com/YIKUAIBANZI/dsh-voice-bubble",
+  "stars": 0,
+  "forks": 0,
+  "lastCommitAt": "2026-11-11T14:49:16Z",
+  "indexedAt": "2026-11-11T14:49:54.607Z",
+  "updatedAt": "2026-11-11T14:49:54.607Z",
+  "source": "manual-submission",
+  "dshManifest": "bundle",
+  "topics": [
+    "dsh",
+    "dsh-plugin",
+    "tts",
+    "voice"
+  ]
+}
