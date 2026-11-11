@@ -1,0 +1,6 @@
+.venv/
+node_modules/
+*.mp3
+*.aiff
+.DS_Store
+config.json

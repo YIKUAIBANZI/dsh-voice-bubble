@@ -1,0 +1,5 @@
+# Bundle patch for @yikuaibanz1/dsh-voice-bubble
+# Loaded when the package is installed as a DSH bundle.
+- insert:
+    - id: yikuaibanz1-voice-bubble
+      name: '@yikuaibanz1/dsh-voice-bubble'
