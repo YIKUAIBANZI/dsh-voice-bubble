@@ -3,8 +3,8 @@
 > 让 DeepSeek Harness（DSH）在对话里直接发语音消息：微信式气泡、点击播放、显示时长、一键「转文字」。
 > WeChat-style voice messages inside the DeepSeek Harness chat — send_voice TTS tool, inline audio player, duration and transcript.
 
-[![dsh.so](https://www.dsh.so/badge/plugin/dsh-voice-bubble.svg)](https://www.dsh.so/artifact/dsh-voice-bubble/)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![dsh.so](https://cdn.dsh.so/badge/dsh-voice-bubble.svg)](https://www.dsh.so/artifact/dsh-voice-bubble/?ref=badge)
+[![license](https://img.shields.io/github/license/YIKUAIBANZI/dsh-voice-bubble)](./LICENSE)
 
 **关键词 / Keywords：** DSH 语音、语音气泡、语音消息、发语音、文字转语音、TTS、语音回复、AI 语音、微信语音气泡、语音播放器 · voice message, voice bubble, text-to-speech, TTS, speech synthesis, audio player, AI voice reply, WeChat-style chat, DeepSeek Harness plugin, dsh plugin
 
