@@ -1,8 +1,8 @@
 {
   "name": "@yikuaibanz1/dsh-voice-bubble",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
-  "description": "Voice messages in the DSH chat: a send_voice tool plus a WeChat-style bubble with play, duration, and 转文字.",
+  "description": "WeChat-style voice messages for DeepSeek Harness chat: send_voice TTS tool + inline audio player with duration and transcript. 语音气泡 / 语音消息 / 文字转语音 / 发语音 for DSH.",
   "license": "MIT",
   "exports": {
     ".": "./lib/index.js",
@@ -37,9 +37,22 @@
     "dsh",
     "dsh-plugin",
     "deepseek-harness",
+    "deepseek",
     "voice",
+    "voice-message",
+    "voice-bubble",
     "tts",
+    "text-to-speech",
+    "speech",
+    "speech-synthesis",
     "audio",
-    "chat-ui"
+    "audio-player",
+    "chat-ui",
+    "wechat",
+    "accessibility",
+    "语音",
+    "语音消息",
+    "语音气泡",
+    "文字转语音"
   ]
 }
